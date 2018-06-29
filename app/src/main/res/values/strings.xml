@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">S Lock</string>
+    <string name="unlock_hint">Swipe to unlock</string>
+</resources>

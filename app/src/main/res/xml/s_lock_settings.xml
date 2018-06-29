@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference android:key="enabled"
+        android:title="Enable locker"/>
+
+    <PreferenceCategory android:title="Personalize"/>
+
+    <CheckBoxPreference android:key="wallpaper"
+        android:title="Custom wallpaper"
+        android:defaultValue="true"/>
+
+    <ListPreference android:key="time"
+        android:title="Time position"
+        android:entries="@array/time_layout"
+        android:entryValues="@array/layout_values"/>
+
+    <CheckBoxPreference android:key="sound"
+        android:title="Sounds"/>
+
+    <CheckBoxPreference android:key="owner"
+        android:title="Owner profile"
+        android:summary="Show owner name on lock screen"/>
+
+    <Preference android:key="name"
+        android:title="Owner name"/>
+
+    <PreferenceCategory android:title="Other"/>
+
+    <Preference android:key="reset"
+        android:title="Reset to defaults"
+        android:summary="Restore default settings"/>
+
+</PreferenceScreen>

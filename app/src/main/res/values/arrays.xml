@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="time_layout">
+        <item>Center</item>
+        <item>Left</item>
+        <item>Right</item>
+    </array>
+    <array name="layout_values">
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </array>
+</resources>
